@@ -1,0 +1,22 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "start": "electron dist/main.js"
+  },
+  "devDependencies": {
+    "electron": "^5.0.8",
+    "rollup": "^1.17.0",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.0"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "svelte": "^3.6.9"
+  }
+}
