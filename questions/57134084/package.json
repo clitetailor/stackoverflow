@@ -8,7 +8,7 @@
     "start": "electron dist/main.js"
   },
   "devDependencies": {
-    "electron": "^5.0.8",
+    "electron": "^11.5.0",
     "rollup": "^1.17.0",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-copy": "^3.1.0",
