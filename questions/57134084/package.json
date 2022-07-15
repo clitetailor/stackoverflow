@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "ramda": "^0.26.1",
-    "svelte": "^3.6.9"
+    "svelte": "^3.49.0"
   }
 }
